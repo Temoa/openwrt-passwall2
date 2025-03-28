@@ -191,6 +191,10 @@ jobs:
             url_sdk: https://downloads.openwrt.org/releases/24.10.0/targets/mvebu/cortexa72/openwrt-sdk-24.10.0-mvebu-cortexa72_gcc-13.3.0_musl.Linux-x86_64.tar.zst
             sdk_ver: "24.10"
 
+          - platform: aarch64_cortex-a76
+            url_sdk: https://downloads.openwrt.org/releases/24.10.0/targets/bcm27xx/bcm2712/openwrt-sdk-24.10.0-bcm27xx-bcm2712_gcc-13.3.0_musl.Linux-x86_64.tar.zst
+            sdk_ver: "24.10"
+
           - platform: arm_cortex-a5_vfpv4
             url_sdk: https://downloads.openwrt.org/releases/24.10.0/targets/at91/sama5/openwrt-sdk-24.10.0-at91-sama5_gcc-13.3.0_musl_eabi.Linux-x86_64.tar.zst
             sdk_ver: "24.10"
